@@ -1,0 +1,44 @@
+html, body {
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+}
+
+/**=============================
+table
+=============================**/
+table>thead>tr>th{
+    padding: 15px 20px !important;
+}
+table thead tr th:first-child{
+    width: 20%;
+}
+table>tbody>tr>th {
+    width: 20%;
+}
+table>tbody>tr>td,
+table>tbody>tr>th{
+    padding: 15px 20px !important;
+}
+table>tbody>tr>td>input#zip-code {
+    width: 20%;
+}
+table>tbody>tr>td>.set-address-button {
+    margin: 10px 0 0;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    width: 20%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+table>tbody>tr>td>.set-address-button:hover {
+    cursor: pointer;
+}
+table>tbody>tr>td>input {
+    width: 50%;
+}
